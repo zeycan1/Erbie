@@ -12,6 +12,14 @@
 | Storage	| 500 GB SSD |
 
 
+## Eğer sunucunuzda daha önceden kurulu wormholes varsa önce onu siliyoruz:
+
+```
+docker stop wormholes && docker rm wormholes && docker rmi wormholestech/wormholes:v1
+rm -rf /wm
+```
+
+
 ## Önce Sunucumuzu güncelliyoruz:
 ```
 sudo apt-get update && sudo apt-get upgrade
