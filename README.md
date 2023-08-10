@@ -23,7 +23,13 @@ rm -rf /wm
 ## Önce Sunucumuzu güncelliyoruz:
 ```
 sudo apt-get update && sudo apt-get upgrade
+
 ```
+## wget'i yüklüyoruz:
+```
+apt-get install wget
+```
+
 ## Şimdi Docker Kurulumu Yapıyoruz:
 ```
 sudo apt install docker.io -y
